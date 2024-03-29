@@ -1,20 +1,16 @@
-import Head from "next/head";
-import Link from "next/link";
-import Widget from '../components/Widget';
+import Head from 'next/head';
+import Link from 'next/link';
 
 function AboutPage(){
     return(
         <>
             <Head>
-                <title>About this website</title>
+                <title> About this website </title>
             </Head>
             <div>
-                <Link href='/' passHref>
+                <Link href="/" passHref>
                     Back to home
                 </Link>
-            </div>
-            <div>
-                <Widget pageName='about'/>
             </div>
         </>
     );
